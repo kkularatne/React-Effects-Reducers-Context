@@ -10,4 +10,7 @@ eg: Login component (Login.js)
 
 ## Reducers
 
+useReducer() is an alternative to useState() but it's more powerful state management than the useState() hook. For an example if you update a state which depends on another state, you should use reducuer instead of useState as useState may not have a latest up to date state of the dependant state.\
+eg: Login component (Login.js) uses email reducer and password reducer.
+
 ## Context
