@@ -47,7 +47,7 @@ const Login = (props) => {
 
   // Object destructuring. emailIsValid and passwordIsvalid are aliases
   const { isValid: emailIsValid } = emailState;
-  const { isvalid: passwordIsValid } = passwordState;
+  const { isValid: passwordIsValid } = passwordState;
 
   useEffect(() => {
     const identifier = setTimeout(() => {
