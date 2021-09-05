@@ -14,3 +14,4 @@ useReducer() is an alternative to useState() but it's more powerful state manage
 eg: Login component (Login.js) uses email reducer and password reducer.
 
 ## Context
+React context manage the state behind the scene where we can directly change the state from any component in the app and pass the state directly to any component in the app without going throgh the component tree/ prop chain. 
